@@ -22,7 +22,7 @@ fs.readFile('./readme.txt',(err,data)=>{
 {
     const fs=require('fs').promises;
 
-    fs.readFile('./readme.txt')
+    fs.readFile('/Users/han/dev/javascript/zerocho/readme2.txt')
     .then(data=>{
         console.log(data);
         console.log(data.toString());
